@@ -291,7 +291,7 @@ if __name__ == "__main__":
             "like CSGO, L4D2 and TF2"))
     argparser.add_argument("--port", type=int, default=9591,
                            help="the port to which the exporter binds")
-    argparser.add_argument("--address", type=str, default="localhost",
+    argparser.add_argument("--address", type=str, default="127.0.0.1",
                            help="the address to which the exporter binds")
     argparser.add_argument("--password", type=str, default=None,
                            help="the password that is used if the exporter "
